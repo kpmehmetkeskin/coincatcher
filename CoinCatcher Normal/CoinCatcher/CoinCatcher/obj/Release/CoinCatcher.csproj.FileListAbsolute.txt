@@ -1,0 +1,117 @@
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\ApplicationInsights.config
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\CoinCatcher.dll.config
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\CoinCatcher.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\CoinCatcher.pdb
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Antlr3.Runtime.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Newtonsoft.Json.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\System.Web.Optimization.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\WebGrease.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\System.Web.Optimization.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Antlr3.Runtime.pdb
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Newtonsoft.Json.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csprojResolveAssemblyReference.cache
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csproj.CoreCompileInputs.cache
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.pdb
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.Properties.Resources.resources
+C:\Users\cscmehmet\source\repos\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csproj.GenerateResource.Cache
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\ApplicationInsights.config
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\CoinCatcher.dll.config
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\CoinCatcher.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\CoinCatcher.pdb
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Antlr3.Runtime.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Newtonsoft.Json.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\System.Web.Optimization.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\WebGrease.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\System.Web.Optimization.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Antlr3.Runtime.pdb
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Newtonsoft.Json.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.xml
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csprojResolveAssemblyReference.cache
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.Properties.Resources.resources
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csproj.GenerateResource.Cache
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csproj.CoreCompileInputs.cache
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.dll
+C:\Users\cscmehmet\source\repos\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.pdb
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\ApplicationInsights.config
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\CoinCatcher.dll.config
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\CoinCatcher.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\CoinCatcher.pdb
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Antlr3.Runtime.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Newtonsoft.Json.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\System.Web.Optimization.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\WebGrease.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\System.Web.Optimization.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Antlr3.Runtime.pdb
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Newtonsoft.Json.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.xml
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csprojResolveAssemblyReference.cache
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.Properties.Resources.resources
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csproj.GenerateResource.Cache
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csproj.CoreCompileInputs.cache
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.dll
+C:\Users\mehmet.keskin\Desktop\CoinCatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.pdb
