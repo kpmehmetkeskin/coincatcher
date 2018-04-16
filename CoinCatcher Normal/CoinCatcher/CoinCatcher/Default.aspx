@@ -38,21 +38,36 @@
                 <asp:AsyncPostBackTrigger  ControlID="Timer1" EventName="Tick" />
             </Triggers>
             <ContentTemplate> 
-                <table class="tftable" border="1">
-                    <tr><th> </th><th>COIN-BTC</th><th>POWER (Pw%)</th><th>t-4</th><th>t-3</th><th>t-2</th><th>t-1</th><th>t (now)</th></tr>
-                    <% for (int i = 0; i < getList().Count; i++) { %>
-                        <tr>
-                            <td><%=(i+1).ToString() %></td>
-                            <td><%=getList()[i].symbol %></td>
-                            <td><%=getList()[i].incrementPower %></td>
-                            <td><img src="Resources/<%=getList()[i].incrementHistory[0].ToString()%>.jpg" style = "height:20px;"></td>
-                            <td><img src="Resources/<%=getList()[i].incrementHistory[1].ToString()%>.jpg" style = "height:20px;"></td>
-                            <td><img src="Resources/<%=getList()[i].incrementHistory[2].ToString()%>.jpg" style = "height:20px;"></td>
-                            <td><img src="Resources/<%=getList()[i].incrementHistory[3].ToString()%>.jpg" style = "height:20px;"></td>
-                            <td><img src="Resources/<%=getList()[i].incrementHistory[4].ToString()%>.jpg" style = "height:20px;"></td>
-                        </tr>
-                   <% } %>
-                </table>
+                <div class="col-md-8">
+                    <table class="tftable" border="1">
+                        <tr><th colspan="8">COIN POWER ALGORITHM</th></tr>
+                        <tr><th> </th><th>COIN-BTC</th><th>POWER (Pw%)</th><th>t-4</th><th>t-3</th><th>t-2</th><th>t-1</th><th>t (now)</th></tr>
+                        <% for (int i = 0; i < getList().Count; i++) { %>
+                            <tr>
+                                <td><%=(i+1).ToString() %></td>
+                                <td><%=getList()[i].symbol %></td>
+                                <td><%=getList()[i].incrementPower %></td>
+                                <td><img src="Resources/<%=getList()[i].incrementHistory[0].ToString()%>.jpg" style = "height:20px;"></td>
+                                <td><img src="Resources/<%=getList()[i].incrementHistory[1].ToString()%>.jpg" style = "height:20px;"></td>
+                                <td><img src="Resources/<%=getList()[i].incrementHistory[2].ToString()%>.jpg" style = "height:20px;"></td>
+                                <td><img src="Resources/<%=getList()[i].incrementHistory[3].ToString()%>.jpg" style = "height:20px;"></td>
+                                <td><img src="Resources/<%=getList()[i].incrementHistory[4].ToString()%>.jpg" style = "height:20px;"></td>
+                            </tr>
+                       <% } %>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <table class="tftable2" border="1">
+                        <tr><th colspan="2">POWERFUL INCREMENT HISTORY</th></tr>
+                        <tr><th>Coin</th><th>Date(GMT+2)</th></tr>
+                        <% for (int i = pumpedCoins.Count-1; i >= 0; i--) {%>
+                            <tr>
+                                <td><%=pumpedCoins.ElementAt(i).symbol%></td>
+                                <td><%=pumpedCoins.ElementAt(i).date%></td>
+                            </tr>
+                       <% } %>
+                    </table>
+                </div>
             </ContentTemplate> 
             </asp:UpdatePanel> 
             <asp:Timer ID="Timer1" runat="server" Interval="1000">

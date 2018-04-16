@@ -52,9 +52,9 @@ textarea {
         font-weight: bold;
     }
 
-.tftable tr {
-    background-color: #FFFFFF;
-}
+    .tftable tr {
+        background-color: #FFFFFF;
+    }
 
     .tftable td {
         font-size: 14px;
@@ -70,3 +70,41 @@ textarea {
 /*.tftable tr:hover {
     background-color: #ffffff;
 }*/
+
+
+.tftable2 {
+    font-size: 12px;
+    color: #333333;
+    width: 100%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .tftable2 th {
+        font-size: 16px;
+        background-color: #006699;
+        color: #FFFFFF;
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #729ea5;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .tftable2 tr {
+        background-color: #FFFFFF;
+    }
+
+    .tftable2 td {
+        font-size: 10px;
+        border-width: 1px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #729ea5;
+        text-align: left;
+        font-weight: bold;
+        color: #000000;
+    }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using CoinCatcher.DTO;
 using CoinCatcher.Entity;
 
@@ -11,6 +13,7 @@ namespace CoinCatcher.Utils
         List<SymbolPriceDTO> watchMinByMinList = null;
         List<SymbolPrice> oldSymbolPriceList = null;
         private Connection connection = new Connection();
+        
 
         public List<SymbolPriceDTO> checkForBuy()
         {
@@ -82,6 +85,23 @@ namespace CoinCatcher.Utils
                         {
                             w.incrementPower = 100;
                         }
+
+                        Boolean isSameCoin = false;
+                        if (_Default.pumpedCoins.Count > 0 && _Default.pumpedCoins.ElementAt(_Default.pumpedCoins.Count - 1).symbol.Equals(w.symbol))
+                        {
+                            isSameCoin = true;
+                        }
+
+                        if (w.incrementPower == 100 && !isSameCoin)
+                        {
+                            _Default.pumpedCoins.Enqueue(new SymbolPriceDTO(w.symbol, DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToLongTimeString()));
+
+                            if (_Default.pumpedCoins.Count > 50)
+                            {
+                                _Default.pumpedCoins.Dequeue();
+                            }
+                        }
+
                     }
                 }
                 w.incrementPower = Math.Round(w.incrementPower, 2);

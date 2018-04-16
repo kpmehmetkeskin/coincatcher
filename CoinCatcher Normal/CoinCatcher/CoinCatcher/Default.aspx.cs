@@ -18,6 +18,7 @@ namespace CoinCatcher
     public partial class _Default : Page
     {
         static List<SymbolPriceDTO> list = null;
+        public static Queue<SymbolPriceDTO> pumpedCoins = new Queue<SymbolPriceDTO>();
         static Controller controller  = null;
 
         static _Default()

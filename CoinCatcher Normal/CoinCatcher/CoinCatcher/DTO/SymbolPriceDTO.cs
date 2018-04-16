@@ -17,6 +17,12 @@ namespace CoinCatcher.DTO
             this.incrementHistory = "fffff";
         }
 
+        public SymbolPriceDTO(string symbol, String date)
+        {
+            this.symbol = symbol;
+            this.date = date;
+        }
+
         public string symbol { get; set; }
         public decimal newPrice { get; set; }
         public decimal oldPrice { get; set; }
@@ -24,6 +30,7 @@ namespace CoinCatcher.DTO
         public decimal boughtQuantity { get; set; }
         public Double incrementPower { get; set; }
         public String incrementHistory { get; set; }
+        public String date { get; set; }
         
     }
 }
