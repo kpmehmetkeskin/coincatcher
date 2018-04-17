@@ -4,14 +4,14 @@
 
     <div class="row" style="background-color: #000000">
         <div class="col-md-12">
-            <p class="lead" style="color: #FFFFFF">This algorithm calculates the instant increase powers of the coins. Coin Market Math, allows you to catch a sudden graphic explosion. Don't miss a sudden graphic explosion! Catch the graph at (t-2), not at (t) !</p>
+            <p class="lead" style="color: #FFFFFF">This algorithm calculates the instant increase powers of the coins. Coin Market Math, allows you to catch a sudden graphic explosion. Don't miss a sudden graphic explosion! Catch the coin before rising..</p>
         </div>
     </div>
 
     <div class="row" style="background-color: #C0C0C0">
         <div class="col-md-12" style="margin: 15px auto auto auto;">
             <p>
-                <asp:Image ID="Image1" runat="server" ImageAlign="Middle" ImageUrl="~/Resources/header2big.png" Width="100%" />
+                <asp:Image ID="Image1" runat="server" ImageAlign="Middle" ImageUrl="~/Resources/header2biggif.gif" Width="100%" />
             </p>
         </div>
     </div>
