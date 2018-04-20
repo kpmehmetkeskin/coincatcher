@@ -7,9 +7,31 @@ namespace CoinCatcher.Entity
 {
     public class SymbolPrice
     {
-        //[JsonProperty("symbol")]
         public string Symbol { get; set; }
-        //[JsonProperty("price")]
-        public decimal Price { get; set; }
+        public decimal LastPrice { get; set; }
+        public decimal QuoteVolume { get; set; }
+
+        public Double PriceIncrementPercent { get; set; }
+        public Double VolumeIncrementPercent { get; set; }
+
+        public Double PricePower { get; set; }
+        public Double VolumePower{ get; set; }
+        public Double Power { get; set; }
+
+        public SymbolPrice(String Symbol, Double PricePower, Double VolumePower, Double Power)
+        {
+            this.Symbol = Symbol;
+            this.PricePower = PricePower;
+            this.VolumePower = VolumePower;
+            this.Power = Power;
+        }
+
+        public SymbolPrice()
+        {
+            PricePower = 0.0;
+            VolumePower = 0.0;
+        }
+
+
     }
 }

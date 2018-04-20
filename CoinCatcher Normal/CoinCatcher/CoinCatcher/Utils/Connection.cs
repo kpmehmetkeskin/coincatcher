@@ -18,10 +18,10 @@ namespace CoinCatcher.Utils
         public Connection()
         {
             html = string.Empty;
-            url = @"https://api.binance.com/api/v1/ticker/allPrices";
+            url = @"https://api.binance.com/api/v1/ticker/24hr";
         }
 
-        public List<SymbolPrice> getAllPrices()
+        public List<SymbolPrice> getDataFromBinance()
         {
             ServicePointManager.Expect100Continue = true;
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;

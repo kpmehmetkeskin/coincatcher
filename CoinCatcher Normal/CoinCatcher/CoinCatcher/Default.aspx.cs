@@ -1,4 +1,5 @@
 ﻿using CoinCatcher.DTO;
+using CoinCatcher.Entity;
 using CoinCatcher.Properties;
 using CoinCatcher.Utils;
 using System;
@@ -17,19 +18,19 @@ namespace CoinCatcher
 {
     public partial class _Default : Page
     {
-        static List<SymbolPriceDTO> list = null;
+        static List<SymbolPrice> list = null;
         public static Queue<SymbolPriceDTO> pumpedCoins = new Queue<SymbolPriceDTO>();
-        static Controller controller  = null;
+        static Services services;
 
         static _Default()
         {
-            controller = new Controller();
+            services = new Services();
 
             method = delegate
             {
                 try
                 {
-                    list = controller.checkForBuy();
+                    list = services.getCoinPowerAndVolumeInc();
                 }
                 catch (Exception e)
                 {
@@ -40,7 +41,7 @@ namespace CoinCatcher
                 while (true)
                 {
                     method();
-                    Thread.Sleep(1000);
+                    Thread.Sleep(10000);
                 }
             }))).Start();
         }
@@ -54,10 +55,10 @@ namespace CoinCatcher
         public delegate void Method();
         public static Method method;
 
-        public static List<SymbolPriceDTO> getList()
+        public static List<SymbolPrice> getList()
         {
             if (list == null)
-                return new List<SymbolPriceDTO>();
+                return new List<SymbolPrice>();
 
             return list;
         }

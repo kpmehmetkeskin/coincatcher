@@ -41,17 +41,14 @@
                 <div class="col-md-8">
                     <table class="tftable" border="1">
                         <tr><th colspan="8">COIN POWER ALGORITHM</th></tr>
-                        <tr><th> </th><th>COIN-BTC</th><th>POWER (Pw%)</th><th>t-4</th><th>t-3</th><th>t-2</th><th>t-1</th><th>t (now)</th></tr>
+                        <tr><th> </th><th>COIN-BTC</th><th>PRICE POWER(%)</th><th>VOLUME POWER(%)</th><th>POWER(%)</th></tr>
                         <% for (int i = 0; i < getList().Count; i++) { %>
                             <tr>
                                 <td><%=(i+1).ToString() %></td>
-                                <td><%=getList()[i].symbol %></td>
-                                <td><%=getList()[i].incrementPower %></td>
-                                <td><img src="Resources/<%=getList()[i].incrementHistory[0].ToString()%>.jpg" style = "height:20px;"></td>
-                                <td><img src="Resources/<%=getList()[i].incrementHistory[1].ToString()%>.jpg" style = "height:20px;"></td>
-                                <td><img src="Resources/<%=getList()[i].incrementHistory[2].ToString()%>.jpg" style = "height:20px;"></td>
-                                <td><img src="Resources/<%=getList()[i].incrementHistory[3].ToString()%>.jpg" style = "height:20px;"></td>
-                                <td><img src="Resources/<%=getList()[i].incrementHistory[4].ToString()%>.jpg" style = "height:20px;"></td>
+                                <td><%=getList()[i].Symbol %></td>
+                                <td><%=getList()[i].PricePower %></td>
+                                <td><%=getList()[i].VolumePower %></td>
+                                <td><%=getList()[i].Power %></td>
                             </tr>
                        <% } %>
                     </table>
@@ -70,7 +67,7 @@
                 </div>
             </ContentTemplate> 
             </asp:UpdatePanel> 
-            <asp:Timer ID="Timer1" runat="server" Interval="1000">
+            <asp:Timer ID="Timer1" runat="server" Interval="5000">
             </asp:Timer> 
         </div>
     </div>

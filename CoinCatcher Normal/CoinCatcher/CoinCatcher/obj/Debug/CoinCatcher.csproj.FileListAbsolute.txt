@@ -146,9 +146,9 @@ C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.WindowsServer.xml
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Microsoft.AI.Web.xml
-C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.csprojResolveAssemblyReference.cache
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.Properties.Resources.resources
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.csproj.GenerateResource.Cache
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.csproj.CoreCompileInputs.cache
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.dll
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.pdb
+C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Debug\CoinCatcher.csprojResolveAssemblyReference.cache
