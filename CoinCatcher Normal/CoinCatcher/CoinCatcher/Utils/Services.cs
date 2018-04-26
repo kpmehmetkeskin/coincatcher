@@ -11,17 +11,15 @@ namespace CoinCatcher.Utils
     {
         private Connection connection = new Connection();
         private List<SymbolPrice> coinListTemp = null;
+        private Double generalPriceAverage = 0.0;
 
         public List<SymbolPrice> getCoinPowerAndVolumeInc()
         {
             List<SymbolPrice> coinList = GetBtcCoins(connection.getDataFromBinance());
-
             if (coinListTemp != null)
             {
                 coinList = CompareCoinListsandGetPowers(coinList);
-
             } 
-            
             coinListTemp = new List<SymbolPrice>(coinList);
 
             return coinList;
@@ -29,14 +27,14 @@ namespace CoinCatcher.Utils
 
         private List<SymbolPrice> CompareCoinListsandGetPowers(List<SymbolPrice> pCoinList)
         {
+            generalPriceAverage = 0.0;
             foreach (SymbolPrice pCoin in pCoinList)
             {
                 foreach (SymbolPrice pCoinTemp in coinListTemp)
                 {
                     if (pCoin.Symbol.Equals(pCoinTemp.Symbol))
                     {
-                        Double priceIncrementPercent = (Double)(pCoin.LastPrice / pCoinTemp.LastPrice);
-                        Double volumeIncrementPercent = (Double)(pCoin.QuoteVolume / pCoinTemp.QuoteVolume);
+                        Double priceIncrementPercent = (Double)(pCoin.Price / pCoinTemp.Price);
 
                         if (priceIncrementPercent > 1.0d)
                         {
@@ -49,19 +47,6 @@ namespace CoinCatcher.Utils
                         else
                         {
                             pCoin.PricePower = pCoinTemp.PricePower - (0.97 * priceIncrementPercent);
-                        }
-                        //  ---------------------------------------
-                        if (volumeIncrementPercent > 1.0d)
-                        {
-                            pCoin.VolumePower = pCoinTemp.VolumePower + (2.99 * volumeIncrementPercent);
-                        }
-                        else if (volumeIncrementPercent < 1.0d)
-                        {
-                            pCoin.VolumePower = pCoinTemp.VolumePower - (2.99 * volumeIncrementPercent);
-                        }
-                        else
-                        {
-                            pCoin.VolumePower = pCoinTemp.VolumePower - (0.97 * volumeIncrementPercent);
                         }
                         //  ---------------------------------------
                         if (pCoin.PricePower > 100)
@@ -77,30 +62,18 @@ namespace CoinCatcher.Utils
                             pCoin.PricePower = Math.Round(pCoin.PricePower, 2);
                         }
                         //  ---------------------------------------
-                        if (pCoin.VolumePower > 100)
-                        {
-                            pCoin.VolumePower = 100;
-                        }
-                        else if (pCoin.VolumePower < 0)
-                        {
-                            pCoin.VolumePower = 0;
-                        }
-                        else
-                        {
-                            pCoin.VolumePower = Math.Round(pCoin.VolumePower, 2);
-                        }
-                        //  ---------------------------------------
-                        pCoin.Power = Math.Round((pCoin.PricePower * pCoin.VolumePower) / 100, 2);
+                        generalPriceAverage += pCoin.PricePower;
+                        pCoin.PricePower = Math.Round(pCoin.PricePower, 2);
+                        pCoin.Symbol = pCoin.Symbol.Replace("BTC","");
                         //  ---------------------------------------
                         Boolean isSameCoin = false;
                         if (_Default.pumpedCoins.Count > 0 && _Default.pumpedCoins.ElementAt(_Default.pumpedCoins.Count - 1).symbol.Equals(pCoin.Symbol))
                         {
                             isSameCoin = true;
                         }
-
-                        if (pCoin.Power == 100 && !isSameCoin)
+                        if (pCoin.PricePower == 100 && !isSameCoin)
                         {
-                            _Default.pumpedCoins.Enqueue(new SymbolPriceDTO(pCoin.Symbol, DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToLongTimeString()));
+                            _Default.pumpedCoins.Enqueue(new SymbolPriceDTO(pCoin.Symbol, DateTime.Now.ToShortDateString() + " " + DateTime.Now.AddHours(+1).ToLongTimeString()));
 
                             if (_Default.pumpedCoins.Count > 50)
                             {
@@ -108,11 +81,20 @@ namespace CoinCatcher.Utils
                             }
                         }
                         //  ---------------------------------------
+                        break;
                     }
                 }
             }
-            pCoinList = pCoinList.OrderByDescending(a => a.Power).ToList<SymbolPrice>();
+            pCoinList = pCoinList.OrderByDescending(a => a.PricePower).ToList<SymbolPrice>();
+            calculateBullishBearish(Convert.ToInt32(Math.Round(generalPriceAverage / pCoinList.Count * 8)));
+
             return pCoinList;
+        }
+
+        private void calculateBullishBearish(int value)
+        {
+            _Default.bullishBearishDTO.bullishPercent = value;
+            _Default.bullishBearishDTO.bearishPercent = 100 - value;
         }
 
         private List<SymbolPrice> GetBtcCoins(List<SymbolPrice> pList)
@@ -121,9 +103,9 @@ namespace CoinCatcher.Utils
 
             foreach (SymbolPrice symbolPrice in pList)
             {
-                if (!symbolPrice.Symbol.Contains("ETH") && !symbolPrice.Symbol.Contains("BNB") && !symbolPrice.Symbol.Contains("USDT"))
+                if (!symbolPrice.Symbol.Contains("ETH") && !symbolPrice.Symbol.Contains("BNB") && !symbolPrice.Symbol.Contains("USDT") && !symbolPrice.Symbol.Contains("123"))
                 {
-                    symbolPrice.Symbol = symbolPrice.Symbol.Replace("BTC","");
+                    symbolPrice.Symbol = symbolPrice.Symbol.Replace("BTC", "");
                     list.Add(symbolPrice);
                 }
             }

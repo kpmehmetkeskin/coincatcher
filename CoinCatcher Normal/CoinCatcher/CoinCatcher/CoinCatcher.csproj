@@ -212,6 +212,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DTO\BullishBearishDTO.cs" />
     <Compile Include="DTO\SymbolPriceDTO.cs" />
     <Compile Include="Entity\SymbolPrice.cs" />
     <Compile Include="Global.asax.cs">

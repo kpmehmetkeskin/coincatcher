@@ -20,6 +20,7 @@ namespace CoinCatcher
     {
         static List<SymbolPrice> list = null;
         public static Queue<SymbolPriceDTO> pumpedCoins = new Queue<SymbolPriceDTO>();
+        public static BullishBearishDTO bullishBearishDTO = new BullishBearishDTO();
         static Services services;
 
         static _Default()
@@ -41,7 +42,7 @@ namespace CoinCatcher
                 while (true)
                 {
                     method();
-                    Thread.Sleep(10000);
+                    Thread.Sleep(1000);
                 }
             }))).Start();
         }

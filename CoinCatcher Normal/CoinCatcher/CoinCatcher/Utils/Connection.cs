@@ -18,7 +18,7 @@ namespace CoinCatcher.Utils
         public Connection()
         {
             html = string.Empty;
-            url = @"https://api.binance.com/api/v1/ticker/24hr";
+            url = @"https://api.binance.com/api/v3/ticker/price";
         }
 
         public List<SymbolPrice> getDataFromBinance()
