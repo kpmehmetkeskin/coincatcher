@@ -73,7 +73,7 @@
                 </div>
             </ContentTemplate> 
             </asp:UpdatePanel> 
-            <asp:Timer ID="Timer1" runat="server" Interval="1000">
+            <asp:Timer ID="Timer1" runat="server" Interval="3000">
             </asp:Timer> 
         </div>
     </div>

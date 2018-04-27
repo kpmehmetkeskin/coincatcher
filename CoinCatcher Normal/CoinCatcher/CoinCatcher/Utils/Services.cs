@@ -12,6 +12,8 @@ namespace CoinCatcher.Utils
         private Connection connection = new Connection();
         private List<SymbolPrice> coinListTemp = null;
         private Double generalPriceAverage = 0.0;
+        private TwitterWrapper twitterWrapper = new TwitterWrapper();
+        private int tweetInterval = 0;
 
         public List<SymbolPrice> getCoinPowerAndVolumeInc()
         {
@@ -88,7 +90,30 @@ namespace CoinCatcher.Utils
             pCoinList = pCoinList.OrderByDescending(a => a.PricePower).ToList<SymbolPrice>();
             calculateBullishBearish(Convert.ToInt32(Math.Round(generalPriceAverage / pCoinList.Count * 8)));
 
+            if (tweetInterval == 100)
+            {
+                twitterWrapper.sendTweet(prepareTweet(pCoinList));
+                tweetInterval = 0;
+            }
+            tweetInterval++;
+            
+
             return pCoinList;
+        }
+
+        private String prepareTweet(List<SymbolPrice> pList)
+        {
+            String site = "http://coinmarketmath.com/";
+            String powerfulCoinsForTweet = "Instant Powerful Coins: ";
+            String bullishBearishForTweet = "Bullish: " + Convert.ToString(_Default.bullishBearishDTO.bullishPercent) + "% Bearish: " + Convert.ToString(_Default.bullishBearishDTO.bearishPercent) + "%";
+
+            for (int i = 0; i < 10; i++)
+            {
+                powerfulCoinsForTweet += " #" + pList[i].Symbol;
+            }
+
+            String result = powerfulCoinsForTweet + " | " + bullishBearishForTweet + " at " + site;
+            return result;
         }
 
         private void calculateBullishBearish(int value)

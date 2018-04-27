@@ -13,6 +13,7 @@ using System.Timers;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TweetSharp;
 
 namespace CoinCatcher
 {
@@ -42,14 +43,16 @@ namespace CoinCatcher
                 while (true)
                 {
                     method();
-                    Thread.Sleep(1000);
+                    Thread.Sleep(3000);
                 }
             }))).Start();
         }
 
+        
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         public static Thread thr;

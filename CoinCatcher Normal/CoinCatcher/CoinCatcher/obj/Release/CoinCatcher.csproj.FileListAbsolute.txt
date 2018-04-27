@@ -154,3 +154,7 @@ C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\C
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.dll
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.pdb
 C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\obj\Release\CoinCatcher.csprojResolveAssemblyReference.cache
+C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Hammock.ClientProfile.dll
+C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\TweetSharp.dll
+C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\Hammock.ClientProfile.pdb
+C:\Projects\coincatcher\CoinCatcher Normal\CoinCatcher\CoinCatcher\bin\TweetSharp.pdb
