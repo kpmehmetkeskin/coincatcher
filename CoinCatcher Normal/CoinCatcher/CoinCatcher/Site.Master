@@ -38,7 +38,7 @@
     <link href="~/Resources/icon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
+<body style="background-color:black;">
     <form runat="server" style="background-color: #000000">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -76,11 +76,12 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Btc">What is Bitcoin</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class="body-content col-md-8" style="margin-left:17%;">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
