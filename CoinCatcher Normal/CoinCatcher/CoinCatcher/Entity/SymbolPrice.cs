@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,13 +8,16 @@ namespace CoinCatcher.Entity
 {
     public class SymbolPrice
     {
+        [JsonProperty]
         public string Symbol { get; set; }
+        [JsonProperty]
         public decimal Price { get; set; }
-        public decimal QuoteVolume { get; set; }
-
-        public Double PriceIncrementPercent { get; set; }
+        //[JsonProperty]
+        //public decimal QuoteVolume { get; set; }
+        //[JsonProperty]
+        //public Double PriceIncrementPercent { get; set; }
         //public Double VolumeIncrementPercent { get; set; }
-
+        [JsonProperty]
         public Double PricePower { get; set; }
         //public Double VolumePower{ get; set; }
         //public Double Power { get; set; }
@@ -31,7 +35,15 @@ namespace CoinCatcher.Entity
             PricePower = 0.0;
             //VolumePower = 0.0;
         }
+    }
 
-
+    public class SymbolPriceResponse
+    {
+        [JsonProperty]
+        private List<SymbolPrice> data = null;
+        public SymbolPriceResponse(List<SymbolPrice> data)
+        {
+            this.data = data;
+        }
     }
 }

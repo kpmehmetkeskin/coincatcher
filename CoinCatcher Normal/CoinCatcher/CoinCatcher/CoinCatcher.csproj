@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AndroidEndpointService.aspx" />
     <Content Include="Btc.aspx" />
     <Content Include="Btc.html" />
     <Content Include="Contact.aspx" />
@@ -196,6 +197,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndroidEndpointService.aspx.cs">
+      <DependentUpon>AndroidEndpointService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AndroidEndpointService.aspx.designer.cs">
+      <DependentUpon>AndroidEndpointService.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>

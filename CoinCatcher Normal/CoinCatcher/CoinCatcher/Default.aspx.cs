@@ -2,6 +2,8 @@
 using CoinCatcher.Entity;
 using CoinCatcher.Properties;
 using CoinCatcher.Utils;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -33,6 +35,7 @@ namespace CoinCatcher
                 try
                 {
                     list = services.getCoinPowerAndVolumeInc();
+                    AndroidEndpointService.response = JsonConvert.SerializeObject(new SymbolPriceResponse(list));
                 }
                 catch (Exception e)
                 {

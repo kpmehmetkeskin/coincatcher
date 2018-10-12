@@ -31,6 +31,6 @@ namespace CoinCatcher.DTO
         public Double incrementPower { get; set; }
         public String incrementHistory { get; set; }
         public String date { get; set; }
-        
+
     }
 }
