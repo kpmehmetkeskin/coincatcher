@@ -9,6 +9,10 @@
         </div>
     </div>
 
+    <div class="row" style="background-color: #000000">
+        <a href="https://play.google.com/store/apps/details?id=com.futuremesalabs.coinmarketmath"><img src="Resources/googleplay.png" alt="Get it on GooglePlay" height="100" width="300"></a>
+    </div>
+
     <div class="row" style="border-style: groove hidden groove hidden; border-width: medium; border-color: #000000; background-color: #C0C0C0;">
          <div class="col-md-6">
             <p style="font-family: Calibri; color: #000000; font-weight: bolder; font-size: 16px;">[Pw%] = Percentage of Power Increase</p>

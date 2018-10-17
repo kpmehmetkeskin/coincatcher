@@ -83,6 +83,16 @@ namespace CoinCatcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap googleplay {
+            get {
+                object obj = ResourceManager.GetObject("googleplay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap header2big {
             get {
                 object obj = ResourceManager.GetObject("header2big", resourceCulture);

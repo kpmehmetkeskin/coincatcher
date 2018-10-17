@@ -12,6 +12,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="About.aspx">
       <publishTime>10/01/2018 11:54:33</publishTime>
     </File>
+    <File Include="AndroidEndpointService.aspx">
+      <publishTime>10/12/2018 17:02:41</publishTime>
+    </File>
     <File Include="ApplicationInsights.config">
       <publishTime>10/01/2018 11:54:33</publishTime>
     </File>
@@ -31,10 +34,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2018 11:54:34</publishTime>
     </File>
     <File Include="bin/CoinCatcher.dll">
-      <publishTime>10/11/2018 10:54:56</publishTime>
+      <publishTime>10/17/2018 20:47:11</publishTime>
     </File>
     <File Include="bin/CoinCatcher.pdb">
-      <publishTime>10/11/2018 10:54:56</publishTime>
+      <publishTime>10/17/2018 20:47:11</publishTime>
     </File>
     <File Include="bin/Hammock.ClientProfile.dll">
       <publishTime>10/01/2018 11:56:01</publishTime>
@@ -262,7 +265,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2018 11:54:33</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>10/11/2018 10:22:36</publishTime>
+      <publishTime>10/17/2018 20:54:01</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>10/01/2018 11:54:33</publishTime>
@@ -373,16 +376,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2018 11:54:33</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>10/11/2018 10:01:41</publishTime>
+      <publishTime>10/11/2018 11:09:07</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
-      <publishTime>10/01/2018 11:54:33</publishTime>
+      <publishTime>10/11/2018 11:09:16</publishTime>
     </File>
     <File Include="ViewSwitcher.ascx">
       <publishTime>10/01/2018 11:54:33</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/11/2018 10:54:57</publishTime>
+      <publishTime>10/12/2018 17:09:22</publishTime>
     </File>
   </ItemGroup>
 </Project>

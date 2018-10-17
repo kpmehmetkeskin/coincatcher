@@ -162,6 +162,7 @@
     <None Include="Resources\u.jpg" />
     <None Include="Resources\header2big.png" />
     <None Include="Resources\header2biggif.gif" />
+    <None Include="Resources\googleplay.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
